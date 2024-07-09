@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Лендинг</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div>
+        <h3 id="Patroncom"> Patron.com </h3>
+    </div>
+    <img src="Patron.jpg" id="Patron">
+    <img src="FonPatron.jpg" id="FonPatron">
+    <hr id="line">
+    <div id="telefon">
+        <b>+380-96-039-44-57</b>
+    </div>
+    <img src="png-transparent-mobile-phones.png" id="fon">
+<div class="button">
+    <a href="#" id="open_pop_up">Ми вам перетелефонуємо!</a>
+</div>
+
+<div class="pop_up" id="pop_up">
+    <div class="pop_up_container">
+        <div class="pop_up_body" id="pop_up_body">
+            <p>Введіть дані</p>
+            <form action="https://api.web3forms.com/submit" method="POST">
+
+                <input type="hidden" name="access_key" value="fd389432-bafc-49e1-af0f-66fdaeb735d4">
+
+                <input type="text" placeholder="Ім'я" required>
+                <input type="text" placeholder="Телефон" required>
+
+                <button type="submit">Ми вам перетелефонуємо!</button>
+            </form>
+            <div class="pop_up_close" id="pop_up_close">&#10006</div>
+        </div>
+    </div>
+</div>
+<script src="main.js" ></script>
+</body>
+</html>
